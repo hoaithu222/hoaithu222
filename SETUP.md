@@ -37,13 +37,23 @@ The workflows will automatically run:
 You can also manually trigger them:
 - Go to Actions tab → Select workflow → Run workflow
 
-### 4. Customize Colors & Theme
+### 4. Generate Snake Animation (First Time)
+After pushing the code:
+1. Go to **Actions** tab in your repository
+2. Select **"Generate Snake Animation"** workflow
+3. Click **"Run workflow"** → **"Run workflow"** button
+4. Wait for the workflow to complete (usually 1-2 minutes)
+5. The snake animation will appear in your README automatically
+
+**Note:** The animation updates daily automatically, but you need to run it manually the first time.
+
+### 5. Customize Colors & Theme
 The current theme uses:
-- Primary color: `9D4EDD` (Purple)
+- Primary color: `A970FF` (Purple)
 - Theme: `tokyonight`
 - Background: `0D1117` (Dark)
 
-To change colors, search and replace `9D4EDD` with your preferred hex color in `README.md`.
+To change colors, search and replace `A970FF` with your preferred hex color in `README.md`.
 
 ## 🎨 Features Included
 
@@ -61,10 +71,12 @@ To change colors, search and replace `9D4EDD` with your preferred hex color in `
 
 ## 📝 Notes
 
-- The snake animation will appear after the first workflow run
-- GitHub stats update in real-time
-- All badges and stats are automatically generated
-- Make sure your repository is public for stats to work properly
+- **Typing SVG**: Uses `readme-typing-svg.vercel.app` - should work immediately
+- **Snake Animation**: Requires first manual workflow run, then updates daily
+- **GitHub Stats**: Update in real-time automatically
+- **All badges and stats**: Automatically generated
+- **Repository**: Must be **public** for stats to work properly
+- **Workflow Permissions**: Make sure Actions have write permissions
 
 ## 🎯 Next Steps
 

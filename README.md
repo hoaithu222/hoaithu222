@@ -1,8 +1,6 @@
 <div align="center">
   
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=A970FF&center=true&vCenter=true&width=435&lines=Hi,+I'm+Vũ+Thị+Hoài+Thu+👋;Front-end+Developer+💻;React+•+Next.js+•+TypeScript" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.vercel.app/?lines=Hi,+I'm+Vũ+Thị+Hoài+Thu+👋;Front-end+Developer+💻;React+•+Next.js+•+TypeScript&font=Fira+Code&size=28&duration=3000&pause=1000&color=A970FF&center=true&vCenter=true&width=435" alt="Typing SVG" />
 
   <p align="center">
     Build scalable <b>Trading & E-commerce</b> applications with passion.<br>
@@ -266,7 +264,11 @@ const hoaithu = {
   
   ### 💜 Thanks for visiting my profile!
   
-  ![Snake animation](https://github.com/hoaithu222/hoaithu222/blob/output/github-contribution-grid-snake.svg)
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hoaithu222/hoaithu222/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hoaithu222/hoaithu222/output/github-contribution-grid-snake.svg">
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/hoaithu222/hoaithu222/output/github-contribution-grid-snake.svg">
+  </picture>
   
   ---
   
